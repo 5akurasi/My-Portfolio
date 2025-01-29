@@ -1,0 +1,127 @@
+/* Основной стиль для всего сайта */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Стиль для хедера */
+header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+  border-bottom: 4px solid #333;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.6rem;
+}
+
+/* Стиль для секций */
+section {
+  padding: 60px 0;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 1.8;
+  color: #666;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Стиль для портфолио */
+.portfolio .gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio .item {
+  text-align: center;
+}
+
+.project-btn {
+  background-color: #1a73e8;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.project-btn:hover {
+  background-color: #0c5bb7;
+  transform: scale(1.05);
+}
+
+.project-btn:active {
+  background-color: #094a8e;
+}
+
+/* Стиль для контактов */
+.contact {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.contact a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Стиль для футера */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+footer p {
+  margin: 0;
+}
